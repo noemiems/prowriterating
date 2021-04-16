@@ -39,7 +39,7 @@ const Textform = props => {
                     text5: input.text5
                 }
         
-                axios.post('https://textratingtool.herokuapp.com/create', newNote)
+                axios.post('http://localhost:8080/create', newNote)
         
                 setInput({
                 title: '',
