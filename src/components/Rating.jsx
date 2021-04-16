@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
-// import Dropdown from './dropdown';
 import Rater from './Rater';
 import './rating.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
