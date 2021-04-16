@@ -28,7 +28,7 @@ class Dropdown extends Component {
   }
 
  async getOptions(){
-    const res = await axios.get('/rating')
+    const res = await axios.get('https://textratingtool.herokuapp.com/rating')
     const data = res.data
 
     const options = data.map(d => ({
