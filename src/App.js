@@ -1,13 +1,13 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 // import UploadText from "./components/Upload";
 import RateText from "./components/Rating";
 
 function App() {
  return (
   <Router>
-    <Navbar />
+    {/* <Navbar /> */}
     <Route exact path='/'>
       <RateText />
     </Route>
