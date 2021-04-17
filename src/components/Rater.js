@@ -17,10 +17,11 @@ export default class Rater extends React.Component {
       
       return (
         
-        <div style={{marginTop:"1%"}}>
+        <div style={{marginTop:"1%"}} >
         <form onSubmit={this.handleSubmit}>
           <label style={{marginLeft:"1.3%"}}>
             <input 
+            style={{backgroundColor:'white'}}
             type="text"
             name="rater"
             placeholder="rater name"

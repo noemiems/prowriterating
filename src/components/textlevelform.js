@@ -55,33 +55,33 @@ const Textform = props => {
 
 
     return ( 
-        <div className='container' style={{marginTop:'5%', fontSize:"80%"}}>
+        <div className='container' style={{marginTop:'5%', fontSize:"80%", backgroundColor:'white'}}>
         
-        <form style={{letterSpacing:'1px'}}>
+        <form style={{letterSpacing:'1px', backgroundColor:'white'}}>
 
-        <p style={{marginTop:'3%', fontWeight:'bold'}}>How many main ideas does this text discuss?</p>
-            <div className="form-group">
-                <input onChange={handleChange} name="text1" value={input.text1} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%'}}></input>
+        <p style={{marginTop:'3%', fontWeight:'bold', backgroundColor:'white'}}>How many main ideas does this text discuss?</p>
+            <div className="form-group" style={{backgroundColor:'white'}}>
+                <input onChange={handleChange} name="text1" value={input.text1} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%', backgroundColor:'white'}}></input>
             </div>
 
-        <p style={{fontWeight:'bold'}}>How many of the main ideas of the text are forecast in the introduction? (If there is no introduction, write N/A)</p>
-            <div className="form-group">
-                <input onChange={handleChange} name="text2" value={input.text2} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%'}}></input>
+        <p style={{fontWeight:'bold',backgroundColor:'white'}}>How many of the main ideas of the text are forecast in the introduction? (If there is no introduction, write N/A)</p>
+            <div className="form-group" style={{backgroundColor:'white'}}>
+                <input onChange={handleChange} name="text2" value={input.text2} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%', backgroundColor:'white'}}></input>
             </div>
 
-        <p style={{fontWeight:'bold'}}>How many of the main ideas of the text are summarized in the conclusion? (If there is no conclusion, write N/A.)</p>
-            <div className="form-group">
-                <input onChange={handleChange} name="text3" value={input.text3} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%'}}></input>
+        <p style={{fontWeight:'bold',backgroundColor:'white'}}>How many of the main ideas of the text are summarized in the conclusion? (If there is no conclusion, write N/A.)</p>
+            <div className="form-group" style={{backgroundColor:'white'}}>
+                <input onChange={handleChange} name="text3" value={input.text3} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%', backgroundColor:'white'}}></input>
             </div>
 
-        <p style={{fontWeight:'bold'}}>On a scale of 1 to 4, how well does the essay address the topic of the prompt?</p>
-            <div className="form-group">
-                <input onChange={handleChange} name="text4" value={input.text4} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%'}}></input>
+        <p style={{fontWeight:'bold', backgroundColor:'white'}}>On a scale of 1 to 4, how well does the essay address the topic of the prompt?</p>
+            <div className="form-group" style={{backgroundColor:'white'}}>
+                <input onChange={handleChange} name="text4" value={input.text4} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%', backgroundColor:'white'}}></input>
             </div>
 
-        <p style={{fontWeight:'bold'}}>On a scale of 1 to 4, rate the strength of the thesis statement. (Use N/A if there is no thesis statement.)</p>
-            <div className="form-group">
-                <input onChange={handleChange} name="text5" value={input.text5} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%',width:'20%'}}></input>
+        <p style={{fontWeight:'bold', backgroundColor:'white'}}>On a scale of 1 to 4, rate the strength of the thesis statement. (Use N/A if there is no thesis statement.)</p>
+            <div className="form-group" style={{backgroundColor:'white'}}>
+                <input onChange={handleChange} name="text5" value={input.text5} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%',width:'20%', backgroundColor:'white'}}></input>
             </div>
 
             <button style={{marginLeft:'45%'}} onClick={handleClick} className="btn btn-lg btn-info">DONE</button>
