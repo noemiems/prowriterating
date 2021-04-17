@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import Navbar from "./components/Navbar";
-import UploadText from "./components/Upload";
+// import UploadText from "./components/Upload";
 import RateText from "./components/Rating";
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
       <RateText />
     </Route>
 
-    <Route exact path='/upload'>
+    {/* <Route exact path='/upload'>
       <UploadText />
-    </Route>
+    </Route> */}
     
   </Router>
  )}

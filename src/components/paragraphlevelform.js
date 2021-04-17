@@ -67,6 +67,7 @@ function ParagraphLevel(props) {
             if (count === props.paragraphnum) {
                 setCount(1)
             }
+
     
             setInput({
             title: '',
