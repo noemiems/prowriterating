@@ -91,12 +91,12 @@ main ideas are broad; supporting ideas can be subsumed under a broader main idea
                 <input onChange={handleChange} name="text1" value={input.text1} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%'}}></input>
             </div>
 
-        <p style={{fontWeight:'bold'}}>How well does this paragraph develop from / fit with the thesis statement (if applicable) and prompt?</p>
+        <p style={{fontWeight:'bold'}}>How well does this paragraph develop from / fit with the thesis statement (if applicable) and prompt? (Scale of 1 to 4)</p>
             <div className="form-group">
                 <input onChange={handleChange} name="text2" value={input.text2} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%'}}></input>
             </div>
 
-        <p style={{fontWeight:'bold'}}>How well does this paragraph connect to/transition from/follow the previous paragraph? Write "N/A" if there is only one paragraph in the whole text.</p>
+        <p style={{fontWeight:'bold'}}>How well does this paragraph connect to/transition from/follow the previous paragraph? (Scale of 1 to 4) Write "N/A" if there is only one paragraph in the whole text.</p>
             <div className="form-group">
                 <input onChange={handleChange} name="text3" value={input.text3} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%'}}></input>
             </div>
