@@ -63,6 +63,10 @@ function ParagraphLevel(props) {
             }
             
             axios.post('https://textratingtool.herokuapp.com/create', newNote)
+
+            if (count === props.paragraphnum) {
+                setCount(1)
+            }
     
             setInput({
             title: '',
@@ -101,7 +105,7 @@ main ideas are broad; supporting ideas can be subsumed under a broader main idea
                 <input onChange={handleChange} name="text3" value={input.text3} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%'}}></input>
             </div>
 
-        <p style={{fontWeight:'bold'}}>How well does this paragraph evidence the claim made in the topic sentence? Write N/A if there is no topic sentence.</p>
+        <p style={{fontWeight:'bold'}}>On a scale of 1 to 4, how well does this paragraph evidence the claim made in the topic sentence? Write N/A if there is no topic sentence.</p>
             <div className="form-group">
                 <input onChange={handleChange} name="text4" value={input.text4} autoComplete="off" placeholder="Enter number" className="form-control" style={{marginTop:'2%', width:'20%'}}></input>
             </div>
